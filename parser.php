@@ -76,7 +76,7 @@ while ($staraText = mysql_fetch_array($starevijestiText)) {
         'post_status' => 'publish',
         'post_category' => array($category_id),
         'post_type' => 'post'
-    );
+    );  
 
     echo "<p>".$stara['datum'].$stara['naslov_lven']."</p>";
     $stari_id = $stara['ID'];
